@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Color Scheme Generator</h1>
+            <div class="inputs">
+                <input type="color" id="input-color" class="typo">
+                <select id="color-scheme-mode" name="color-scheme-mode" class="typo">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="get-color" class="typo">Get Color Scheme</button>
+            </div>
+            <div class="container">
+                <div class="color color-one">
+                    <p class="color-names"></p>
+                </div>
+                <div class="color color-two">
+                    <p class="color-names"></p>
+                </div>
+                <div class="color color-three">
+                    <p class="color-names"></p>
+                </div>
+                <div class="color color-four">
+                    <p class="color-names"></p>
+                </div>
+                <div class="color color-five">
+                    <p class="color-names"></p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
